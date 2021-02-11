@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/playerdatabase123/databases/player",
+      "type": "mssql.azure",
+      "connectionId": "ApplicationDatabaseConnection",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

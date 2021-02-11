@@ -1,0 +1,14 @@
+﻿@model Mvc1CodeFirstToAzure.ViewModels.HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<ul>
+    @foreach (var p in Model.Players)
+    {
+        <li onclick="javascript: alert('Du klickade på @p.Id ');" >
+             @p.Namn
+        </li>
+    }
+</ul>
